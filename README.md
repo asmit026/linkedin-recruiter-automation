@@ -65,7 +65,7 @@ LINKEDIN_PASSWORD=your_password
 # Gmail SMTP Configuration
 GMAIL_USER=your_email@gmail.com
 GMAIL_APP_PASSWORD="your_16_char_app_password"
-SENDER_NAME="Asmit Patel"
+SENDER_NAME="John Doe"
 SENDER_PHONE="+91 9876543210"
 RESUME_PATH="./resume.pdf"
 ```
