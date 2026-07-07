@@ -56,7 +56,7 @@ npm run send-email
 
 ## ⚙️ Configuration (`.env`)
 
-Ensure your `/Users/asmit/LinkedIn Automation/.env` file is set up with your credentials:
+Ensure your `.env` file is set up with your credentials:
 
 ```env
 LINKEDIN_EMAIL=your_email@gmail.com
