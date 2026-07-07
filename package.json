@@ -1,0 +1,26 @@
+{
+  "name": "linkedin-recruiter-automation",
+  "version": "1.0.0",
+  "description": "Automated LinkedIn job post scraper and Gmail campaign sender for contract developers",
+  "main": "linkedin_search.js",
+  "scripts": {
+    "scrape": "node linkedin_search.js",
+    "test-email": "node send_emails.js --dry-run",
+    "send-email": "node send_emails.js --send"
+  },
+  "keywords": [
+    "linkedin",
+    "automation",
+    "scraper",
+    "recruiter",
+    "gmail",
+    "playwright"
+  ],
+  "author": "Asmit Patel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14",
+    "playwright": "^1.45.0"
+  }
+}
